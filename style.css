@@ -106,8 +106,8 @@
 }
 
 /* COLLECTION ACCENT SYSTEM — restrained white / gold / silver with one unique tone */
-.collection-gifted{--edition:#165c50;--edition-pale:#edf5f1;--edition-line:rgba(22,92,80,.24);--edition-text:#246b5c}
-.collection-hologram{--edition:#beb4bc;--edition-pale:#f5f2f4;--edition-line:rgba(155,142,151,.34);--edition-text:#8c7e89}
+.collection-gifted{--edition:#c6a25a;--edition-pale:#faf4e8;--edition-line:rgba(198,162,90,.30);--edition-text:#9c762d}
+.collection-hologram{--edition:#cdd4de;--edition-pale:#f3f6f9;--edition-line:rgba(159,172,190,.38);--edition-text:#758397}
 .collection-upcoming{--edition:#b2a08c;--edition-pale:#f8f5ef;--edition-line:rgba(178,160,140,.27);--edition-text:#a58e6b}
 .collection-gifted .inner-hero,.collection-hologram .inner-hero,.collection-upcoming .inner-hero{position:relative;isolation:isolate;background:linear-gradient(155deg,#fff 14%,var(--edition-pale) 100%)}
 .collection-gifted .inner-hero:before,.collection-hologram .inner-hero:before,.collection-upcoming .inner-hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 80% 22%,#fff 0%,transparent 52%);opacity:.75;pointer-events:none;z-index:-1}
@@ -132,7 +132,7 @@
 .history-row strong{font-family:var(--serif);font-size:clamp(28px,5.7vw,57px);font-weight:400;letter-spacing:-.025em;line-height:1.15;min-width:0}
 .history-action{font-size:9px;letter-spacing:.10em;color:#928b80;white-space:nowrap}
 a.history-row:hover strong{color:#a18862}
-.history-hologram{--row:#c8bec2}.history-gifted{--row:#165c50}.history-champion{--row:#d9c4b3}.history-brilliant{--row:#465c97}.history-moon{--row:#e7dfce}
+.history-hologram{--row:#cdd4de}.history-gifted{--row:#c6a25a}.history-champion{--row:#e4c886}.history-brilliant{--row:#f1e4e8}.history-moon{--row:#e9e3d8}
 .archive-note{padding-bottom:100px;color:#a69278;font:italic 16px var(--serif);text-align:center}
 .archive-index-link{padding:26px var(--gutter) 68px;text-align:center;background:#fcfbf9}
 .archive-index-link a{display:inline-block;color:#968b7b;text-decoration:none;font-size:10px;letter-spacing:.14em;border-bottom:1px solid #d1c8bb;padding:8px 0}
@@ -163,3 +163,10 @@ a.history-row:hover strong{color:#a18862}
 .archive-feature .small-copy{font-size:12px;line-height:2.3}
 .archive-feature .line-link{gap:22px;font-size:9px;letter-spacing:.13em}
 }
+
+/* GF 2023-2027 archival palette: subtle editorial shimmer; color names intentionally unpublished. */
+.collection-gifted .inner-hero:after,.collection-hologram .inner-hero:after{content:"";position:absolute;inset:0;pointer-events:none;z-index:-1;opacity:.38;background:linear-gradient(116deg,transparent 28%,rgba(255,255,255,.65) 45%,transparent 63%)}
+.collection-gifted .edition-signature{color:#b18a3c}
+.collection-hologram .edition-signature{color:#96a1b1}
+.collection-gifted .collection-tone-line{background:linear-gradient(90deg,transparent,#d9bd7c,#ba9448,#f3deb0,transparent)}
+.collection-hologram .collection-tone-line{background:linear-gradient(90deg,transparent,#b1bdcd,#e7ebf0,#99a6b8,transparent)}
